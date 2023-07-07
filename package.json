@@ -2,8 +2,12 @@
   "name": "nodejs-demo",
   "version": "0.0.0",
   "private": true,
+  "main": "index.js",
+    "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node index.js"
   },
   "dependencies": {
     "@vercel/node": "^2.15.3",
