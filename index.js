@@ -39,7 +39,7 @@ app.use(function (err, req, res, next) {
 });
 
 //启动服务器
-app.listen(8090, function () {
+app.listen(80, function () {
   console.log("===> 服务器启动成功，端口8090")
 });
 
